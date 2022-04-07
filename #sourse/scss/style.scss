@@ -1,2 +1,37 @@
+h1	{
+	color: red;
+}
 
+.header {
+	&__text-red {
+		span {
+			color: red;
+		}
+	}
+	&__text {
+		color: #fff;
+		background: blue;
+		width: 100px;
+		margin: 0 0 100px 0;
+	}
+}
+
+.section {
+	&__title {
+		background: green;
+		color: #fff;
+	}
+	&__title-new {
+		color: #fff;
+		background: green;
+		padding: 35px;
+	}
+	&__subtitle {
+		padding: 0 0 0 100px;
+	}
+	&__list li {
+		border: 1px solid #333;
+		font-size: 25px;
+	}
+}
 

@@ -4,41 +4,41 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="shortcut icon" href="img/icon/logo-web.ico">
 
 	<title>Document</title>
 </head>
 <body>
-	<div class="wrapper">
-		<div class="contents">
-			<div class="header">
-				<div class="header__logo"><img src="img/logo.jpeg" alt=""></div>
-			</div>
-			<h1>Вступление H1</h1>
-			<p>Ето текст моего первого домашнего задание</p>
-			<p>Не верится, но мне уже удается писать свой первый код на HTML</p>
-			<h2>Что дальше? H2</h2>
-			<div class="text">
-				Дальше, я буду получать все больше и больше опыта в разработке сайтов, чтобы достичь новых вершин!
-				<a href="https://www.google.com">Прочитать больше в Google</a>
-			</div>
-			<h2>Что ябуду уметь? H2</h2>
-			<p>Я смогу сздавать вот такие замечательные формы:</p>
-			<form action="#">
-				<input type="text" placeholder="Имя" required>
-				<input type="email" placeholder="E-mail" required>
-				<input type="tel" placeholder="Телефон" required>
-				<button type="submit">Отправить форму</button>
-			</form>
-			<p>А также, я научусь создавать списки:</p>
-			<ul>
-				<li>С одним пунктом</li>
-				<li>С несколькими пунктами</li>
-				<li>И даже с тремя отдельными пунктами</li>
-			</ul>
-			<h2>Отличное начало! H2</h2>
-			<a href="https://wayup.in/cabinet/course10-39-wave/unit1/lesson1">Перейти на страницу первого занятия курса</a>
-		</div>
-	</div>
+	<header>
+		<img src="img/logo.jpeg" alt="">
+		<h1>Вступление H1</h1>
+		<p class="header__text">Ето текст моего второго домашнего задание.</p>
+		<p class="header__text-red">Не верится, но мне уже удается писать свой <span>первый код на HTML</span></p>
+	</header>
+	<section>
+		<h2 class="section__title">Что дальше? H2</h2>
+		<p>Дальше, я буду получать все больше и больше опыта в разработке сайтов, чтобы достичь новых вершин! <a target="_blank" href="https://www.google.com">Прочитать больше в Google</a></p>
+	</section>
+	<section>
+		<h2 class="section__title-new">Что ябуду уметь? H2</h2>
+		<p class="section__subtitle">Я смогу сздавать вот такие замечательные формы:</p>
+		<form action="#">
+			<input type="text" placeholder="Имя" required>
+			<input type="email" placeholder="E-mail" required>
+			<input type="tel" placeholder="Телефон" required>
+			<button type="submit">Отправить форму</button>
+		</form>
+		<p>А также, я научусь создавать списки:</p>
+		<ul class="section__list">
+			<li>С одним пунктом</li>
+			<li>С несколькими пунктами</li>
+			<li>И даже с тремя отдельными пунктами</li>
+		</ul>
+	</section>
+	<footer>
+		<h2 class="section__title">Отличное начало! H2</h2>
+		<a target="_blank" href="https://wayup.in/cabinet/course10-39-wave/unit1/lesson1">Перейти на страницу первого занятия курса</a>
+	</footer>
 </body>
 </html>

@@ -1,0 +1,30 @@
+h1 {
+  color: red;
+}
+
+.header__text-red span {
+  color: red;
+}
+.header__text {
+  color: #fff;
+  background: blue;
+  width: 100px;
+  margin: 0 0 100px 0;
+}
+
+.section__title {
+  background: green;
+  color: #fff;
+}
+.section__title-new {
+  color: #fff;
+  background: green;
+  padding: 35px;
+}
+.section__subtitle {
+  padding: 0 0 0 100px;
+}
+.section__list li {
+  border: 1px solid #333;
+  font-size: 25px;
+}
