@@ -3,42 +3,90 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>WayUp DZ-3</title>
 
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="shortcut icon" href="img/icon/logo-web.ico">
-
-	<title>ЗНАКОМСТВО С CSS3</title>
 </head>
 <body>
-	<header>
-		<img src="img/logo.jpeg" alt="">
-		<h1>Вступление H1</h1>
-		<p class="header__text">Ето текст моего второго домашнего задание.</p>
-		<p class="header__text-red">Не верится, но мне уже удается писать свой <span>первый код на HTML</span></p>
-	</header>
-	<section>
-		<h2 class="section__title">Что дальше? H2</h2>
-		<p>Дальше, я буду получать все больше и больше опыта в разработке сайтов, чтобы достичь новых вершин! <a target="_blank" href="https://www.google.com">Прочитать больше в Google</a></p>
-	</section>
-	<section>
-		<h2 class="section__title-new">Что ябуду уметь? H2</h2>
-		<p class="section__subtitle">Я смогу сздавать вот такие замечательные формы:</p>
-		<form action="#">
-			<input type="text" placeholder="Имя" required>
-			<input type="email" placeholder="E-mail" required>
-			<input type="tel" placeholder="Телефон" required>
-			<button type="submit">Отправить форму</button>
-		</form>
-		<p>А также, я научусь создавать списки:</p>
-		<ul class="section__list">
-			<li>С одним пунктом</li>
-			<li>С несколькими пунктами</li>
-			<li>И даже с тремя отдельными пунктами</li>
-		</ul>
-	</section>
-	<footer>
-		<h2 class="section__title">Отличное начало! H2</h2>
-		<a target="_blank" href="https://wayup.in/cabinet/course10-39-wave/unit1/lesson1">Перейти на страницу первого занятия курса</a>
-	</footer>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header__row">
+					<img src="img/logo.png" alt="logo" class="row__logo">
+					<div class="row__center">
+						<div class="center__info">
+							<div class="info__title">
+								С помощью верстки <br> я создам ту жизнь, о которой <br>
+								<span>мечтаю!</span>
+							</div>
+							<div class="info__subtitle">
+								Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%. Меня не остановить!
+							</div>
+							<div class="info__button">
+								<a href="#forms">Двигаться к мечте!</a>
+							</div>
+						</div>
+						<img src="img/image-header.png" alt="image">
+					</div>
+				</div>
+			</div>
+		</header>
+		<section class="what">
+			<div class="container">
+				<div class="what__row">
+					<div class="row__title">Что меня ждет впереди</div>
+					<div class="row__column">
+						<div class="column__vertical">
+							<img src="img/icon-what__1.png" alt="image">
+							<div class="vertical__title">Свободное время</div>
+							<div class="vertical__subtitle">Мне нужно свободное время на семью и самое настоящее</div>
+						</div>
+						<div class="column__vertical">
+							<img src="img/icon-what__2.png" alt="image">
+							<div class="vertical__title">Яркие путешествия</div>
+							<div class="vertical__subtitle">Работать откуда угодно - что может быть лучше?</div>
+						</div>
+						<div class="column__vertical">
+							<img src="img/icon-what__3.png" alt="image">
+							<div class="vertical__title">Создание ценности</div>
+							<div class="vertical__subtitle">Нет ничего сильнее, чем жить не просто так, создавая ценность</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="form">
+			<div class="container">
+				<div class="form__row-f">
+					<div class="row-f__title">Форма заказа билета в будущее</div>
+					<div class="row-f__forms">
+						<form action="#" class="forms__formm">
+							<input type="text" class="formm__input" placeholder="Имя">
+						</form>
+						<form action="#" class="forms__formm">
+							<input type="email" class="formm__input" placeholder="E-mail">
+						</form>
+						<form action="#" class="forms__formm">
+							<input type="tel" class="formm__input" placeholder="Телефон">
+						</form>
+						<form action="#" class="forms__formm">
+							<input type="text" class="formm__input" placeholder="Куда я полечу в ближайшее время?">
+						</form>
+						<button class="forms__button" type="submit" id="forms">
+							<a href="#">Двигаться к мечте!</a>
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__row">
+					<p>© Все мои мечты защищены моим трудолюбием</p>
+				</div>
+			</div>
+		</footer>
+	</div>
 </body>
 </html>
